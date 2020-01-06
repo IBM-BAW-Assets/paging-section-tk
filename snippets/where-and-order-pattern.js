@@ -2,7 +2,9 @@ function initTableProperties() {
 	var colParms = new tw.object.listOf.ColumnParameter();
 	
 	var i = 0;
-	
+	// ---------------------------------------
+	// BEGIN EDIT HERE
+	//----------------------------------------
 	colParms[i] = new tw.object.ColumnParameter();
 	colParms[i].index = i;
 	colParms[i].columnName = "ID";
@@ -53,6 +55,10 @@ function initTableProperties() {
 	colParms[i].parameter = new tw.object.SQLParameter();
 	colParms[i].parameter.mode = "IN";
 	colParms[i++].parameter.type = "CHAR";
+	
+	// ---------------------------------------
+	// END EDIT HERE
+	//----------------------------------------
 	
 	return colParms;
 
