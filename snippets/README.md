@@ -11,5 +11,8 @@ views to use the paging-section-tk assets
     and sort configurations. This goes in a parent or mutual CV that the paging section and fitler 
     coach view reside.
     
-    example-base-business-object-query.js is a base query example used to illustrate the data service 
-    pattern in the Example from the toolkit.
+    example-base-business-object-query.js is a base query example for returning business data 
+    mapped to a business object. This example is used in the data service pattern example in toolkit. 
+    
+    example-base-total-records.js is a base query returns the total number of records in the dataset. 
+    This example is used in the data service pattern example in toolkit. 
