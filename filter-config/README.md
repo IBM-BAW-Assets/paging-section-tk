@@ -19,3 +19,8 @@ SS_FILTER_AND_SORT_DDL.sql containes the Data Definition for the TableFilterCV F
         . $HOME/sqllib/db2profile (For bash or Korn shell,this sets up the DB2 command line environment.)
         cd $HOME/sqllib/bin
         db2 -stvf SS_FILTER_AND_SORT_DDL.sql
+        
+        
+Sample data can be uploaded to recreate the example using the sample data files
+    SS_FILTER_CONFIG_sample.sql and
+    SS_SORT_CONFIG_sample.sql
