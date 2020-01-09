@@ -23,5 +23,5 @@ views to use the paging-section-tk assets
     default-filterDataList.js is the default list data used in the simulation example to show the 
     WHERE clause being inserted in the server side query
     
-     default-sortConfigList.js is the default list data used in the simulation example to show the 
-     ORDER by clause being inserted in the server side query
+    default-sortConfigList.js is the default list data used in the simulation example to show the 
+    ORDER by clause being inserted in the server side query
