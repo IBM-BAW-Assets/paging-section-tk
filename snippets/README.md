@@ -19,3 +19,9 @@ views to use the paging-section-tk assets
     where-and-order-pattern.js is a standardised module that can be reused the developer needs 
     to only change the initTableProperties() fucntion to have column details sepfic to the 
     table being filtered.
+    
+    default-filterDataList.js is the default list data used in the simulation example to show the 
+    WHERE clause being inserted in the server side query
+    
+     default-sortConfigList.js is the default list data used in the simulation example to show the 
+     ORDER by clause being inserted in the server side query
