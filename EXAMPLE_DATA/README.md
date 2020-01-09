@@ -15,3 +15,8 @@ On Linux and UNIX, type the following:
     . $HOME/sqllib/db2profile (For bash or Korn shell,this sets up the DB2 command line environment.)
     cd $HOME/sqllib/bin
     db2 -stvf EG_DDL.sql
+
+Sample Data that can be used to setup the example database used in the article is also availble here load these inserts in the following order. (Can use similar command as detailed fro the DDL)
+    1. EG_CITY_CODE_sample.sql
+    2. EG_PRODUCT_TYPE_sample.sql and
+    3. EG_PRODUCT_PURCAHSE_sample.sql
