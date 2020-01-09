@@ -1,0 +1,16 @@
+INSERT INTO PROTELDBNEW.EG_PRODUCT_TYPE (ID,PRODUCT_NM) VALUES 
+(2432,'Product A')
+,(1888,'Product P')
+,(1632,'Product M')
+,(1500,'Product L')
+,(1234,'Product B')
+,(1122,'Product C')
+,(1336,'Product D')
+,(1434,'Product E')
+,(2020,'Product I')
+,(2112,'Product J')
+,(2345,'Product K')
+,(2567,'Product N')
+,(2600,'Product O')
+,(2765,'Product P')
+;
