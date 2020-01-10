@@ -3,7 +3,7 @@ views to use the paging-section-tk assets
 
     showHideFitlers.js is a function for showing or hiding a filter triggered from the onclick 
     event of a button and loaded inside a deferred section. This goes in a parent CV in which 
-    the fitler coach view is configred.
+    the fitler coach view is configured.
 
     filterSortOnChangeEvent.js is a example function of setting the paging section variables 
     and calling first on the paging section triggering a reload of the data based on the new filter 
@@ -25,3 +25,11 @@ views to use the paging-section-tk assets
     
     default-sortConfigList.js is the default list data used in the simulation example to show the 
     ORDER by clause being inserted in the server side query
+    
+    enableRequestReviewButton.js is an example function of enabling or disabling a button triggered 
+    from 'On row selected by user' event of the Table view. This example calls the hasRowSelected() 
+    function of the paging section coach view where it returns whether a record is selected.
+    
+    requestReview.js is an example function for getting all records selected by the user. This 
+    example calls getAllSelectedRecords() function of the paging section coach where it returns all
+    selected records in the table.
