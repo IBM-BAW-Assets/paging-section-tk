@@ -16,10 +16,10 @@ INSERT INTO PROTELDBNEW.SS_FILTER_CONFIG (VIEW_NAME,FILTER_DISPLAY_NAME,DB_COLUM
 ,('FilterTest','Project Type','PROJECTTYPE','intValue','SELECT DISTINCT <schema_name>.CLIENTPROJECT.PROJECT_TP AS name, <schema_name>.PARLOOKUP.NAME AS value FROM <schema_name>.CLIENTPROJECT JOIN <schema_name>.PARLOOKUP ON <schema_name>.CLIENTPROJECT.PROJECT_TP = <schema_name>.PARLOOKUP.LOOKUP_ID, <schema_name>.COLOCATION WHERE <schema_name>.CLIENTPROJECT.CLIENTPROJECT_ID IN ((SELECT DISTINCT <schema_name>.COLOCATION.CLIENTPROJECT_ID FROM <schema_name>.COLOCATION))',0,NULL)
 ,('Example1','Record ID','ID','intB','',0,NULL)
 ,('Example1','Reciept ID','RECEIPT_ID','batch','',0,NULL)
-,('Example1','Purchase Date','PURCAHSE_DT','dateR','',0,NULL)
+,('Example1','Purchase Date','PURCHASE_DT','dateR','',0,NULL)
 ,('Example1','Purcahse Amount','PURCHASE_AMT','decR','',0,NULL)
 ,('Example1','City of Purchase','CITY_CD','nvp','SELECT CITY_NM AS value, CD AS name FROM <schema_name>.EG_CITY_CODE
 ORDER BY CITY_NM',0,NULL)
-,('Example1','Product','PRODUT_CD','intValue','',0,NULL)
+,('Example1','Product','PRODUCT_TP','intValue','SELECT PRODUCT_NM AS value, ID AS name FROM <schema_name>.EG_PRODUCT_TYPE ORDER BY PRODUCT_NM',0,NULL)
 ,('Example1','Country','COUNTRY','string','SELECT COUNTRY AS NAME FROM <schema_name>.EG_PRODUCT_PURCHASE GROUP BY COUNTRY',0,NULL)
 ;
